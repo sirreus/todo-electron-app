@@ -1,9 +1,9 @@
 # demo-electron-app
 
-Clone this repo, `cd` to project root dir
+This is a small ToDo React-TypeScript application wrapped in Electron.
 
-Setup environment: `npm i`
+Clone this repo, open your project root dir and install the dependencies: `npm i`
 
-Launch app: `npm run go`
+To launch the Electron application, run the command: `npm run go` . This will run all go:react scripts to run React and go:git electronic to run Electron in real time.
 
-To make build macOS app laucher: `npm run build`
+To make app build for macOS: `npm run build` . This script will clean up the old ./build and ./dist directories and run the React and Electron build scripts. After that, you will get **DMG**-file for MacOS **arch=x64** file in **.dist/DemoApp-0.1.0.dmg**
